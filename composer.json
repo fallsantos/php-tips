@@ -1,0 +1,28 @@
+{
+  "name": "fallsantos/php-tips",
+  "description": "Aprendendo componentes",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Flávio Santos",
+      "email": "fallsantosdev@hotmail.com",
+      "role": "Developer",
+      "homepage": "https://fallsantosdev.com"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sourse\\": "sourse/"
+    },
+    "files": [
+      "sourse/Config.php"
+    ]
+  },
+  "require": {
+    "phpmailer/phpmailer": "^6.1"
+  }
+}
